@@ -23,4 +23,5 @@ MapScanFromArr(&(mapconfig_t){
     .dirs_limit = 3, /* if a path has over 3 '/' it will stop running */
     .total_limit = 100, /* if 100 dirs were scanned it will stop running */
     .fptr = Print,
-}, DirArr, sizeof(DirArr)/sizeof(DirArr[0]));```
+}, DirArr, sizeof(DirArr)/sizeof(DirArr[0]));
+```
